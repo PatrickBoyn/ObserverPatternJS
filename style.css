@@ -4,9 +4,15 @@ html {
 .btn {
   border-radius: 5px;
   padding: 1rem;
+  border: none;
 }
 .sub-ms {
   background-color: #20cc82;
   color: #ffffff;
   border: 1px solid #127048;
+}
+.unsub-ms {
+  background-color: #ed4f32;
+  color: #ffffff;
+  border: 1px solid #963523;
 }
