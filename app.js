@@ -38,5 +38,5 @@ document.querySelector('.fire-event').addEventListener('click', function() {
 });
 
 const getCurrentMS = function() {
-  console.log(`Current Milliseconds: ${new Date().toMilliseconds()}`);
+  console.log(`Current Milliseconds: ${new Date().getMilliseconds()}`);
 };
