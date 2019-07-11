@@ -13,5 +13,10 @@ EventObserver.prototype = {
       if (item !== fn) return item;
     });
     console.log(`You are now unsubscribed from ${fn.name}`);
+  },
+  fireEvent: () => {
+    this.observers.forEach(item => {
+      item.call();
+    });
   }
 };
