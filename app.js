@@ -31,6 +31,8 @@ document.querySelector('.unsub-ms').addEventListener('click', () => {
   click.unsubscribe(getCurrentMS);
 });
 
+document.querySelector('fireEvent').addEventListener('click', () => {});
+
 const getCurrentMS = () => {
   console.log(`Current Milliseconds: ${new Date().toMilliseconds()}`);
 };
