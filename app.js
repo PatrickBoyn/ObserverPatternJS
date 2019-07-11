@@ -2,7 +2,7 @@
 function EventObserver() {
   this.observers = [];
 }
-
+// I cheated a bit and used arrow functions from ES6
 EventObserver.prototype = {
   subscribe: fn => {
     this.observers.push(fn);
