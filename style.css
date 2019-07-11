@@ -1,4 +1,8 @@
+html {
+  font-size: 62.5%;
+}
 .sub-ms {
   background-color: #20cc82;
   color: #ffffff;
+  border: 1px solid #127048;
 }
