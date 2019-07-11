@@ -17,13 +17,28 @@ html {
   color: #ffffff;
   border: 1px solid #127048;
 }
+.sub-ms:hover,
+.sub-ms:active {
+  background-color: #127048;
+  border: 1px solid #20cc82;
+}
 .unsub-ms {
   background-color: #ed4f32;
   color: #ffffff;
   border: 1px solid #963523;
 }
+.unsub-ms:hover,
+.unsub-ms:active {
+  background-color: #963523;
+  border: 1px solid #ed4f32;
+}
 .fire-event {
   background-color: #48dbfb;
   color: #ffffff;
   border: 1px solid #2f889c;
+}
+.fire-event:hover,
+.fire-event:active {
+  background-color: #2f889c;
+  border: 1px solid #48dbfb;
 }
