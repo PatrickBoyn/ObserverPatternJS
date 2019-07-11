@@ -2,22 +2,22 @@
 function EventObserver() {
   this.observers = [];
 }
-// I cheated a bit and used arrow functions from ES6
+
 EventObserver.prototype = {
-  subscribe: fn => {
+  subscribe: function(fn) {
     this.observers.push(fn);
     console.log(`You are now subscribed to ${fn.name}`);
   },
-  unsubscribe: fn => {
-    this.observers = this.observers.filter(item => {
+  unsubscribe: function(fn) {
+    this.observers = this.observers.filter(function(item) {
       if (item !== fn) {
         return item;
       }
     });
     console.log(`You are now unsubscribed from ${fn.name}`);
   },
-  fireEvent: () => {
-    this.observers.forEach(item => {
+  fireEvent: function() {
+    this.observerfs.forEach(function(item) {
       item.call();
     });
   }
