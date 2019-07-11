@@ -23,4 +23,6 @@ EventObserver.prototype = {
 
 const click = new EventObserver();
 
-document.querySelector('.ub-ms').addEventListener('Type', () => {});
+document.querySelector('.ub-ms').addEventListener('click', () => {
+  click.subscribe();
+});
