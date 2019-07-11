@@ -25,18 +25,18 @@ EventObserver.prototype = {
 
 const click = new EventObserver();
 
-document.querySelector('.sub-ms').addEventListener('click', () => {
-  click.subscribe(getCurrentMS);
+document.querySelector('.sub-ms').addEventListener('click', function() {
+  click.subscribe(getCurrnetMS);
 });
 
-document.querySelector('.unsub-ms').addEventListener('click', () => {
+document.querySelector('.unsub-ms').addEventListener('click', function() {
   click.unsubscribe(getCurrentMS);
 });
 
-document.querySelector('.fire-event').addEventListener('click', () => {
+document.querySelector('.fire-event').addEventListener('click', function() {
   click.fireEvent();
 });
 
-const getCurrentMS = () => {
+const getCurrnetMS = function() {
   console.log(`Current Milliseconds: ${new Date().toMilliseconds()}`);
 };
