@@ -5,6 +5,7 @@ html {
   border-radius: 5px;
   padding: 1rem;
   border: none;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.3);
 }
 .sub-ms {
   background-color: #20cc82;
