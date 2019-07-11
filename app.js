@@ -12,5 +12,6 @@ EventObserver.prototype = {
     this.observers = this.observers.filter(item => {
       if (item !== fn) return item;
     });
+    console.log(`You are now unsubscribed from ${fn.name}`);
   }
 };
