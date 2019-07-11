@@ -22,3 +22,5 @@ EventObserver.prototype = {
 };
 
 const click = new EventObserver();
+
+document.querySelector('.ub-ms').addEventListener('Type', () => {});
