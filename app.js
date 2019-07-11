@@ -24,10 +24,12 @@ EventObserver.prototype = {
 const click = new EventObserver();
 
 document.querySelector('.ub-ms').addEventListener('click', () => {
-  click.subscribe();
+  click.subscribe(getCurrentMS);
 });
 
-document.querySelector('.unsub-ms').addEventListener('click', () => {});
+document.querySelector('.unsub-ms').addEventListener('click', () => {
+  click.unsubscribe(getCurrentMS);
+});
 
 const getCurrentMS = () => {
   console.log(`Current Milliseconds: ${new Date().toMilliseconds()}`);
