@@ -20,3 +20,5 @@ EventObserver.prototype = {
     });
   }
 };
+
+const click = new EventObserver();
