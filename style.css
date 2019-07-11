@@ -1,6 +1,10 @@
 html {
   font-size: 62.5%;
 }
+.btn {
+  border-radius: 5px;
+  padding: 1rem;
+}
 .sub-ms {
   background-color: #20cc82;
   color: #ffffff;
