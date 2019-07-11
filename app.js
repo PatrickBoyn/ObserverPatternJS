@@ -23,7 +23,7 @@ EventObserver.prototype = {
 
 const click = new EventObserver();
 
-document.querySelector('.ub-ms').addEventListener('click', () => {
+document.querySelector('.sub-ms').addEventListener('click', () => {
   click.subscribe(getCurrentMS);
 });
 
