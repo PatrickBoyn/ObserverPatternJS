@@ -1,6 +1,9 @@
 html {
   font-size: 62.5%;
 }
+.container {
+  font-size: 1.8rem;
+}
 .btn {
   border-radius: 5px;
   padding: 1rem;
