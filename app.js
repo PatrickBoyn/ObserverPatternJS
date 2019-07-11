@@ -26,7 +26,7 @@ EventObserver.prototype = {
 const click = new EventObserver();
 
 document.querySelector('.sub-ms').addEventListener('click', function() {
-  click.subscribe(getCurrnetMS);
+  click.subscribe(getCurrentMS);
 });
 
 document.querySelector('.unsub-ms').addEventListener('click', function() {
@@ -37,6 +37,6 @@ document.querySelector('.fire-event').addEventListener('click', function() {
   click.fireEvent();
 });
 
-const getCurrnetMS = function() {
+const getCurrentMS = function() {
   console.log(`Current Milliseconds: ${new Date().toMilliseconds()}`);
 };
