@@ -17,7 +17,7 @@ EventObserver.prototype = {
     console.log(`You are now unsubscribed from ${fn.name}`);
   },
   fireEvent: function() {
-    this.observerfs.forEach(function(item) {
+    this.observers.forEach(function(item) {
       item.call();
     });
   }
