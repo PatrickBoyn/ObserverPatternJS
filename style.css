@@ -16,6 +16,7 @@ html {
   background-color: #20cc82;
   color: #ffffff;
   border: 1px solid #127048;
+  margin-right: 1.5rem;
 }
 .sub-ms:hover,
 .sub-ms:active {
@@ -34,11 +35,12 @@ html {
 }
 .fire-event {
   background-color: #48dbfb;
-  color: #ffffff;
+  color: #2f889c;
   border: 1px solid #2f889c;
 }
 .fire-event:hover,
 .fire-event:active {
   background-color: #2f889c;
+  color: #48dbfb;
   border: 1px solid #48dbfb;
 }
