@@ -31,7 +31,7 @@ document.querySelector('.unsub-ms').addEventListener('click', () => {
   click.unsubscribe(getCurrentMS);
 });
 
-document.querySelector('fireEvent').addEventListener('click', () => {
+document.querySelector('fire-event').addEventListener('click', () => {
   click.fireEvent();
 });
 
